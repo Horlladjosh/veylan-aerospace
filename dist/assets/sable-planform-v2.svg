@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="aircraft" viewBox="0 0 1200 540" role="img" aria-label="Detailed 2D product illustration of the fictional Sable uncrewed aircraft, viewed from above">
+  <g stroke-linejoin="round">
+    <!-- Wing skins, leading edges and control surfaces. -->
+    <path d="M600 32L631 155 668 225 1030 365 1040 402 653 332 647 410 721 454 721 474 613 447 600 466 587 447 479 474 479 454 553 410 547 332 160 402 170 365 532 225 569 155Z" fill="var(--sable-wing,#394147)" stroke="#1c2227" stroke-width="2.5"/>
+    <path d="M532 225L570 295 168 392 170 365Z" fill="var(--sable-lit,#69757e)"/>
+    <path d="M668 225L630 295 1032 392 1030 365Z" fill="var(--sable-shade,#272e34)"/>
+    <path d="M532 225L558 286 251 370 170 365Z" fill="var(--sable-upper,#505b63)"/>
+    <path d="M668 225L642 286 949 370 1030 365Z" fill="var(--sable-upper,#505b63)"/>
+    <path d="M170 365L532 225M668 225L1030 365" fill="none" stroke="#9ca8af" stroke-width="2" opacity=".65"/>
+    <path d="M205 386L550 305M650 305L995 386M258 372L532 274M668 274L942 372" fill="none" stroke="#161e24" stroke-width="1.7"/>
+    <path d="M251 370L258 394M949 370L942 394M358 342L368 369M842 342L832 369M456 303L468 342M744 303L732 342" fill="none" stroke="#8d989e" stroke-width="1" opacity=".5"/>
+    <path d="M175 391L537 313M663 313L1025 391" fill="none" stroke="#a8b2b9" stroke-width="1" opacity=".4"/>
+    <!-- Fuselage is an unmanned equipment carrier, without a cockpit. -->
+    <path d="M600 32L622 133 638 215 646 308 635 402 618 447 600 466 582 447 565 402 554 308 562 215 578 133Z" fill="var(--sable-body,#3e474f)" stroke="#182128" stroke-width="2"/>
+    <path d="M600 32L592 160 583 291 587 414 600 466 582 447 565 402 554 308 562 215 578 133Z" fill="var(--sable-lit,#69757e)"/>
+    <path d="M600 32L608 160 617 291 613 414 600 466 618 447 635 402 646 308 638 215 622 133Z" fill="var(--sable-shade,#272e34)"/>
+    <path d="M600 48V228M600 352V417" fill="none" stroke="#b4bec3" stroke-width="1.5" opacity=".45"/>
+    <path d="M578 137Q600 143 622 137M566 204Q600 217 634 204M557 310Q600 323 643 310M567 389Q600 399 633 389" fill="none" stroke="#141d24" stroke-width="1.5"/>
+    <!-- Access hatch, fasteners and electrical connection panel. -->
+    <rect x="572" y="238" width="56" height="103" rx="7" fill="var(--sable-hatch,#46525c)" stroke="#151f27" stroke-width="2"/>
+    <path d="M578 244H620V335" fill="none" stroke="#aab6bd" stroke-width="1" opacity=".65"/>
+    <rect x="594" y="249" width="12" height="4" rx="1" fill="#b1b9ba"/>
+    <g fill="#bec7cb" stroke="#263039" stroke-width="1"><circle cx="577" cy="248" r="1.7"/><circle cx="623" cy="248" r="1.7"/><circle cx="577" cy="330" r="1.7"/><circle cx="623" cy="330" r="1.7"/></g>
+    <rect x="575" y="351" width="50" height="22" rx="3" fill="#1a252d" stroke="#73818a" stroke-width="1"/>
+    <circle cx="584" cy="362" r="3" fill="#809098"/><circle cx="615" cy="362" r="3" fill="#809098"/>
+    <path d="M595 359H605M595 364H605" stroke="#788891" stroke-width="1"/>
+    <text x="614" y="163" transform="rotate(90 614 163)" fill="#bac3c6" font-family="Arial,sans-serif" font-size="10" letter-spacing="3">VEYLAN</text>
+    <!-- Tailplanes and rear propulsion detail. -->
+    <path d="M553 383L588 430 479 474 479 454Z" fill="var(--sable-upper,#505b63)" stroke="#1c242b" stroke-width="1.5"/>
+    <path d="M647 383L612 430 721 474 721 454Z" fill="var(--sable-shade,#272e34)" stroke="#1c242b" stroke-width="1.5"/>
+    <path d="M553 383L479 454M647 383L721 454" stroke="#9ca8af" stroke-width="1" opacity=".6"/>
+    <path d="M576 394L587 439 543 419Z" fill="#707a80" stroke="#222c33" stroke-width="1.5"/>
+    <path d="M624 394L613 439 657 419Z" fill="#313b43" stroke="#182128" stroke-width="1.5"/>
+    <path d="M584 422H616L612 451H588Z" fill="#141c22" stroke="#75828a" stroke-width="1.5"/>
+    <path d="M589 431H611M590 437H610M591 443H609" stroke="#697781" stroke-width="1.5"/>
+  </g>
+</svg>

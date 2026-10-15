@@ -10,6 +10,6 @@ Import this repository. Use Framework Preset Other, leave Root Directory at the 
 
 The homepage uses a generated Sable still. NASA footage loads only through the research-film dialog. The flight viewer has separate playback and scrub controls. Aircraft details are interactive. Reduced motion is supported.
 
-The enquiry form previews a brief locally and sends or saves nothing. Search indexing is disabled. Credits are on the Information page.
+The enquiry form previews a brief locally and sends or saves nothing. Search indexing is enabled, with canonical URLs and a sitemap at /sitemap.xml. Vercel Web Analytics is included on every page. Credits are on the Information page.
 
-Before the final Vercel launch, update the origin in build.py to the assigned deployment URL, then regenerate the pages. This updates Open Graph URLs and image URLs.
+The production origin is https://veylan-aerospace.vercel.app. If the domain changes, update origin in build.py and regenerate the pages to update canonical, sitemap and sharing URLs. CSS is inlined by the page generator to avoid a render-blocking stylesheet request. Fonts use WOFF2; the hero uses responsive AVIF with WebP fallback.
